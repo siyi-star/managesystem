@@ -4,6 +4,10 @@ python3+django+xadmin+MySQL
 
 git clone https://github.com/siyi-star/managesystem.git
 
+python manage.py makemigrations
+
+python manage.py migrate
+
 python manage.py runserver 0.0.0.0:port
 
 (Note: SQLite is used by default, and it is also possible to change to MySQL or SqlServer, just operate Google)
